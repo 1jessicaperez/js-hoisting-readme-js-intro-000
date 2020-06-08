@@ -7,14 +7,13 @@ function callMe() {
   console.log("so call me");
 }
 
+thisIsCrazy();
 
 function crazy() {
   // fix the code in here:
-    var thisIsCrazy = ""
   var thisIsCrazy = function (){
     console.log("hey!!!")
   }
-    thisIsCrazy();
 }
 
 function sayMyName() {
