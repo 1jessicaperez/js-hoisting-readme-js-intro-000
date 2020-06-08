@@ -27,3 +27,13 @@ function sayMyName() {
     var name = "Kristin";
   }
 }
+
+function sayMyName() {
+  // fix the code in here:
+  sayMy();
+  function sayMy() {
+    console.log(name);
+    var name = "Kristin";
+  }
+    var name = "Cricky";
+}
