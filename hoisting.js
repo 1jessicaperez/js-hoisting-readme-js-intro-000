@@ -31,10 +31,11 @@ function sayMyName() {
 function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
-  var name = "Kristin";
-  sayMyName()();
+  sayMy();
+
   function sayMy() {
     console.log(name);
     var name = "Kristin";
   }
+   sayMyName()
 }
